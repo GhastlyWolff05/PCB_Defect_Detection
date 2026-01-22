@@ -7,12 +7,12 @@ A computer vision pipeline trained to detect electronic components and surface-l
 ## Project Assets & Media
 Due to GitHub file size limits, the raw dataset and the recordings are hosted on Google Drive.
 
-- [Full Dataset on Roboflow](https://app.roboflow.com/practice-w8vd6/simplepcb_defect_detection/browse?queryText=&pageSize=100&startingIndex=0&browseQuery=true)
+[Full Dataset on Roboflow](https://app.roboflow.com/practice-w8vd6/simplepcb_defect_detection/browse?queryText=&pageSize=100&startingIndex=0&browseQuery=true)
 -   Check out all the raw images, annotated images, and the augmented images on my Roboflow workspace.
 -   PLEASE NOTE:
--   Images of Defective objects *start with the name of the defect* in them (eg. 'scratched_mc_12', 'discolored_clk_4', 'missing_usb_10')
--   Images of non-defective objects do not have any defect in their name, and *start with 'ok'* (eg. 'ok_11', 'ok_63')
-- [Inference Screen Recordings:](https://drive.google.com/drive/folders/1wnWmFWhAgrT2fVPUPoitFbssS8pTQtdz?usp=sharing) Video evidence of the model detecting defects in real-time.
+	-   Images of Defective objects *start with the name of the defect* in them (eg. 'scratched_mc_12', 'discolored_clk_4', 'missing_usb_10')
+	-   Images of non-defective objects do not have any defect in their name, and *start with 'ok'* (eg. 'ok_11', 'ok_63')
+[Inference Screen Recordings:](https://drive.google.com/drive/folders/1wnWmFWhAgrT2fVPUPoitFbssS8pTQtdz?usp=sharing) Video evidence of the model detecting defects in real-time.
 
 ## Performance Metrics
 Evaluated on a Tesla T4 GPU using the YOLOv8s architecture.
@@ -51,9 +51,8 @@ For more results documentation, click [here](https://drive.google.com/drive/fold
 - No GPU needed if you have access to Google Colab
 - LabelImg
 - Roboflow
-- Ultralytics YOLO v8
+- Ultralytics YOLO v8s
 - PyTorch
-
 
 ---
 
