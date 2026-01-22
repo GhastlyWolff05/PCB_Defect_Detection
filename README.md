@@ -17,12 +17,22 @@ Due to GitHub file size limits, the raw dataset and the recordings are hosted on
 ## Performance Metrics
 Evaluated on a Tesla T4 GPU using the YOLOv8s architecture.
 
+**V2**
 | Metric | Value |
 | :--- | :--- |
 | **Model Size** | 22.5 MB |
 | **Inference Speed** | 10.1 ms (~99 FPS) |
 | **mAP@50** | 0.2406 |
 | **mAP@50-95** | 0.1177 |
+
+**V3**
+| **Metric**          | **Value**   |
+| ------------------- | ----------- |
+| **Precision (B)**   | **0.6816**  |
+| **Recall (B)**      | **0.5245**  |
+| **$mAP_{50}$**      | **0.5262**  |
+| **$mAP_{50-95}$**   | **0.3107**  |
+| **Inference Speed** | **5.17 ms** |
 
 For more results documentation, click [here](https://drive.google.com/drive/folders/1TfvZXD4U5El_7sSSyKna4xwI5sWo0yR_?usp=sharing)
 
@@ -89,9 +99,9 @@ python PCB_Defect_Detection.py
 
 ## Severity Logic:
 The model distinguishes between component identification and critical failures:
-CRITICAL: Missing components or deep Scratches.
-MINOR: Light/Surface scratches or discoloration.
-PASS: Identified normal components.
+- CRITICAL: Missing components or deep Scratches.
+- MINOR: Light/Surface scratches or discoloration.
+- PASS: Identified normal components.
 
 ## Architecture:
 
