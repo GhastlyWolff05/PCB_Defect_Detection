@@ -12,6 +12,7 @@ Due to GitHub file size limits, the raw dataset and the recordings are hosted on
 -   PLEASE NOTE:
 	-   Images of Defective objects *start with the name of the defect* in them (eg. 'scratched_mc_12', 'discolored_clk_4', 'missing_usb_10')
 	-   Images of non-defective objects do not have any defect in their name, and *start with 'ok'* (eg. 'ok_11', 'ok_63')
+
 [Inference Screen Recordings:](https://drive.google.com/drive/folders/1wnWmFWhAgrT2fVPUPoitFbssS8pTQtdz?usp=sharing) Video evidence of the model detecting defects in real-time.
 
 ## Performance Metrics
